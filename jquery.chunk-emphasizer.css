@@ -1,0 +1,30 @@
+.ce-text-wrapper {
+  position: relative;
+}
+
+.ce-text-wrapper .main-text, .ce-text-wrapper .l-blur {
+  background: #fff;
+}
+
+.ce-text-wrapper .main-text {
+  position: relative;
+  z-index: 3;
+}
+
+.ce-text-wrapper .l-blur, .ce-text-wrapper .s-blur {
+  position: absolute;
+}
+
+.ce-text-wrapper .l-blur {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.ce-text-wrapper .s-blur {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  opacity: 0.8;
+  z-index: 1;
+}

@@ -1,0 +1,12 @@
+.container {
+	max-width: 960px;
+	margin: 0 auto;;
+}
+
+.plane {
+	display: none;
+}
+
+.main-text, .l-blur, .s-blur {
+	padding: 10px;
+}
