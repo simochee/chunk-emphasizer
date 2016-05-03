@@ -36,5 +36,25 @@ var options = {
 ##### options.paddingLR
 ブラーの左右のパディングを指定します。
 
+## 対応
+このプラグインは主要なモダンブラウザの最新版で動作します。
+
+なお、InternetExplorer、MS Edgeには対応しておりません。
+#### PC
+* Firefox 3.5 +
+* Chrome 24 +
+* Safari 7.1 +
+* Opera 15 +
+
+* IE 非対応
+* Edge 非対応
+
+#### SP
+* Android Browser 4.4 +
+* Chrome for Android 49 +
+* 
+* Opera Mobile 36 +
+
 ## 使用上の注意
 1. このプラグインは**アクティブなチャンク、各チャンク、単語にそれぞれクラスが付与されている**ことで動作します。
+2. プラグインを使用する要素には**idの指定が必須**です。
