@@ -25,3 +25,14 @@ var options = {
 }
 ```
 #### options.controller
+チャンクを操作する要素を指定します。
+#### options.active
+アクティブなチャンクに付与されているセレクタを指定します。
+#### options.chunk
+チャンクに付与されているセレクタを指定します。
+#### options.word
+チャンク内の各単語に付与されているセレクタを指定します。
+#### options.paddingTB
+ブラーの上下のパッディングを指定します。
+#### options.paddingLR
+ブラーの左右のパディングを指定します。
