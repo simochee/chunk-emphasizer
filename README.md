@@ -14,7 +14,6 @@
 ```javascript
 $( selector ).chunkEmphasizer( options );
 ```
-* このプラグインを指定する要素にはid属性を付与する必要があります。
 
 
 
@@ -29,15 +28,37 @@ var options = {
 	paddingLR: 100
 }
 ```
-#### options.controller
+##### options.controller
 チャンクを操作する要素を指定します。
-#### options.active
+##### options.active
 アクティブなチャンクに付与されているセレクタを指定します。
-#### options.chunk
+##### options.chunk
 チャンクに付与されているセレクタを指定します。
-#### options.word
+##### options.word
 チャンク内の各単語に付与されているセレクタを指定します。
-#### options.paddingTB
+##### options.paddingTB
 ブラーの上下のパッディングを指定します。
-#### options.paddingLR
+##### options.paddingLR
 ブラーの左右のパディングを指定します。
+
+## 対応
+このプラグインは主要なモダンブラウザの最新版で動作（想定）します。
+
+なお、InternetExplorer、MS Edgeには対応しておりません。
+#### PC
+* Firefox 3.5 +
+* Chrome 24 +
+* Safari 7.1 +
+* Opera 15 +
+* IE 非対応
+* Edge 非対応
+
+#### SP
+* Android Browser 4.4 +
+* Chrome for Android 49 +
+* Firefox for Android 45 +
+* Opera Mobile 36 +
+
+## 使用上の注意
+1. このプラグインは**アクティブなチャンク、各チャンク、単語にそれぞれクラスが付与されている**ことで動作します。
+2. プラグインを使用する要素には**idの指定が必須**です。
