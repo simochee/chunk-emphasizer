@@ -45,14 +45,13 @@ var options = {
 * Chrome 24 +
 * Safari 7.1 +
 * Opera 15 +
-
 * IE 非対応
 * Edge 非対応
 
 #### SP
 * Android Browser 4.4 +
 * Chrome for Android 49 +
-* 
+* Firefox for Android 45 +
 * Opera Mobile 36 +
 
 ## 使用上の注意
