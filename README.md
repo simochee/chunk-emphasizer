@@ -6,6 +6,11 @@
 
 
 ## 使い方
+```html
+<script src="./jquery.min.js"></script>
+<script src="./jquery.chunk-emphasizer.js"></script>
+<link rel="stylesheet" href="./jquery.chunk-emphasizer.css">
+```
 ```javascript
 $( selector ).chunkEmphasizer( options );
 ```
