@@ -43,8 +43,8 @@ var options = {
 
 ## 対応
 このプラグインは主要なモダンブラウザの最新版で動作（想定）します。
+（InternetExplorer、MS Edgeでは動作しません）
 
-なお、InternetExplorer、MS Edgeでは動作しません。
 #### PC
 * Firefox 3.5 +
 * Chrome 24 +
@@ -58,6 +58,9 @@ var options = {
 * Chrome for Android 49 +
 * Firefox for Android 45 +
 * Opera Mobile 36 +
+
+なお、この対応はCSS clip-pathの対応によるものです。最新の対応は以下に記載のとおりです。
+Can I use : http://caniuse.com/#feat=css-clip-path
 
 ## 使用上の注意
 1. このプラグインは**アクティブなチャンク、各チャンク、単語にそれぞれクラスが付与されている**ことで動作します。
