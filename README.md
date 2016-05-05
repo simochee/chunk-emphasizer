@@ -43,6 +43,7 @@ var options = {
 
 ## 対応
 このプラグインは主要なモダンブラウザの最新版で動作（想定）します。
+
 （InternetExplorer、MS Edgeでは動作しません）
 
 #### PC
@@ -60,6 +61,7 @@ var options = {
 * Opera Mobile 36 +
 
 なお、この対応はCSS clip-pathの対応によるものです。最新の対応は以下に記載のとおりです。
+
 Can I use : http://caniuse.com/#feat=css-clip-path
 
 ## 使用上の注意
