@@ -1,4 +1,4 @@
-# chunk-highlighter
+# chunk-Emphasizer
 
 ## 仕様
 テキストにブラーのかかった要素を重ね、マスキングすることでアクティブなチャンクを目立たせます。
@@ -44,7 +44,7 @@ var options = {
 ## 対応
 このプラグインは主要なモダンブラウザの最新版で動作（想定）します。
 
-なお、InternetExplorer、MS Edgeには対応しておりません。
+なお、InternetExplorer、MS Edgeでは動作しません。
 #### PC
 * Firefox 3.5 +
 * Chrome 24 +
@@ -53,7 +53,7 @@ var options = {
 * IE 非対応
 * Edge 非対応
 
-#### SP
+#### Mobile
 * Android Browser 4.4 +
 * Chrome for Android 49 +
 * Firefox for Android 45 +
